@@ -12,6 +12,9 @@ zuul:
     resources:
       path: /resources/**
       url : http://hello-service.apps.bigdata.intraorange/
+    test:
+      path: /test/**
+      url : http://hello-service.apps.bigdata.intraorange/      
 ribbon:
   IsSecure: true
 ---
